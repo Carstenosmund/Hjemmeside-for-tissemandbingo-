@@ -3,180 +3,212 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tissemands Banko</title>
+  <title>Tissemands Bingo</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      background-color: #fff8f5;
-      color: #333;
       line-height: 1.6;
+      color: #222;
+      background: #fff;
     }
 
-    header {
-        <img src="mig 9.JPG" alt="Mig i aktion">
-  <img src="mig6.JPG" alt="Event">
-  <img src="Tissemands.jpg" alt="Spillet">
-  <img src="TS 5.jpg" alt="Stemning">
-  <img src="TS6.jpg" alt="Grin og hygge">
-  <img src="download.jpg" alt="Fest">
-      background: #ff6f61;
-      color: white;
-      text-align: center;
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
       padding: 40px 20px;
     }
 
-    section {
-      max-width: 800px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    h1, h2 {
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
       margin-bottom: 10px;
     }
 
-    .box {
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .hero {
+      background: url('DIT-BILLEDE.jpg') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: 1px solid white;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
       background: white;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      color: black;
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 18px;
     }
 
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #eee;
+    .section {
       margin-top: 40px;
     }
 
-    .cta {
-      background: #ff6f61;
-      color: white;
-      padding: 15px;
-      text-align: center;
-      border-radius: 8px;
-      margin-top: 20px;
-      font-weight: bold;
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    a {
+      color: inherit;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>✨ TISSEMANDS BANKO</h1>
-  <p>Nu i Storkøbenhavn & på Sjælland 🎉</p>
-</header>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Tissemands Bingo</h1>
+      <p>En aften med grin, nærvær og lidt røde kinder</p>
+      <a href="mailto:din@email.dk" class="btn">Book jeres dato</a>
+    </div>
+  </section>
 
-<section class="box">
-  <p>
-    En sjov, anderledes og uforglemmelig oplevelse til jer,
-    der vil grine, hygge og prøve noget helt nyt 💛
-  </p>
-</section>
+  <div class="container">
 
-<section class="box">
-  <h2>🍆 Det får I</h2>
-  <ul>
-    <li>2 timers underholdning</li>
-    <li>Tissemands Banko med 90 “deltagere”</li>
-    <li>Sjove og frække præmier 🎁</li>
-    <li>Små oplæg om sex, lyst og relationer</li>
-    <li>Masser af grin, nærvær og god stemning</li>
-  </ul>
-</section>
+    <!-- INTRO -->
+    <p>
+      Tissemands Bingo er en anderledes oplevelse til jer, der gerne vil grine,
+      være sammen og prøve noget nyt.
+    </p>
 
-<section class="box">
-  <h2>😏 Hvad er Tissemands Banko?</h2>
-  <p>
-    Forestil jer klassisk banko… bare med et twist.
-  </p>
-  <p>
-    I stedet for tal spiller I med 90 forskellige tissemænd – alle med deres egne kreative navne.
-  </p>
-  <ul>
-    <li>Spermkanonen</li>
-    <li>Tissetrolden</li>
-    <li>Flottenhejmeren</li>
-  </ul>
-  <p>Ja… det bliver sjovt 😄</p>
-</section>
+    <p>
+      Det starter stille.  
+      Og ender som regel med røde kinder og ondt i maven af grin.
+    </p>
 
-<section class="box">
-  <h2>💬 Sjov med mening</h2>
-  <ul>
-    <li>Lyst og seksualitet</li>
-    <li>Grænser og samtykke</li>
-    <li>Flirt og relationer</li>
-    <li>Intimitet og parforhold</li>
-  </ul>
-  <p>Alt i en tryg og respektfuld tone.</p>
-</section>
+    <!-- HVAD ER DET -->
+    <div class="section">
+      <h2>Hvad er det?</h2>
+      <p>
+        Forestil jer klassisk bingo – bare med 90 forskellige tissemænd i stedet for tal.
+      </p>
+      <p>
+        Alle med deres egne navne og udtryk.  
+        Nogle mere kreative end andre.
+      </p>
+    </div>
 
-<section class="box">
-  <h2>💃 Perfekt til</h2>
-  <ul>
-    <li>Polterabend</li>
-    <li>Venindeaftener</li>
-    <li>Fødselsdage</li>
-    <li>Private arrangementer</li>
-  </ul>
-  <p>Bedst til grupper på 6–20 personer</p>
-</section>
+    <!-- DET FÅR I -->
+    <div class="section">
+      <h2>Det får I</h2>
+      <ul>
+        <li>To timers underholdning</li>
+        <li>Tissemands Bingo med 90 “deltagere”</li>
+        <li>Præmier og små overraskelser</li>
+        <li>En oplevelse I taler om bagefter</li>
+      </ul>
+    </div>
 
-<section class="box">
-  <h2>🏡 Sådan foregår det</h2>
-  <p><strong>I sørger for:</strong></p>
-  <ul>
-    <li>Location</li>
-    <li>Gæster</li>
-    <li>Godt humør</li>
-  </ul>
+    <!-- MERE END GRIN -->
+    <div class="section">
+      <h2>Mere end bare grin</h2>
+      <p>
+        Undervejs åbner vi op for samtaler om lyst, grænser og relationer.
+      </p>
+      <p>
+        Det hele foregår i en tryg og respektfuld ramme, hvor der er plads til både grin og eftertanke.
+      </p>
+    </div>
 
-  <p><strong>Vi sørger for:</strong></p>
-  <ul>
-    <li>Spil</li>
-    <li>Underholdning</li>
-    <li>Stemning 🙌</li>
-  </ul>
-</section>
+    <!-- PERFEKT TIL -->
+    <div class="section">
+      <h2>Perfekt til</h2>
+      <ul>
+        <li>Polterabend</li>
+        <li>Venindeaftener</li>
+        <li>Fødselsdage</li>
+        <li>Private arrangementer</li>
+      </ul>
+      <p>Bedst til grupper på 6–20 personer.</p>
+    </div>
 
-<section class="box">
-  <h2>💰 Pris</h2>
-  <p>2 timer: 2400 kr. + evt. transport</p>
-  <p>Mulighed for tilkøb:</p>
-  <ul>
-    <li>Pynt</li>
-    <li>Tissemandskager</li>
-    <li>Bobler</li>
-    <li>Ekstra goodies</li>
-  </ul>
-</section>
+    <!-- PRAKTISK -->
+    <div class="section">
+      <h2>Sådan foregår det</h2>
+      <p>I sørger for location, gæster og godt humør.</p>
+      <p>Vi sørger for resten.</p>
+    </div>
 
-<section class="box">
-  <h2>📍 Hvor?</h2>
-  <p>Storkøbenhavn & Sjælland</p>
-</section>
+    <!-- PRIS -->
+    <div class="section">
+      <h2>Pris</h2>
+      <p>2 timer: 2400 kr. + evt. transport</p>
+      <p>
+        Mulighed for tilkøb af pynt, kager, bobler og ekstra indhold.
+      </p>
+    </div>
 
-<section class="box">
-  <h2>📅 Booking</h2>
-  <p>Kontakt os for at booke jeres dato 👇</p>
+    <!-- HVOR -->
+    <div class="section">
+      <h2>Hvor</h2>
+      <p>Storkøbenhavn og Sjælland</p>
+      <p>
+        Er I i Jylland eller på Fyn, henviser vi til vores samarbejdspartner:
+        <a href="#">Se her</a>
+      </p>
+      <p>
+        Se også vores arbejde med relationer og seksualitet:
+        <a href="https://www.carstenosmund.dk/">carstenosmund.dk</a>
+      </p>
+    </div>
 
-  <div class="cta">
-    Skriv til os på: din@email.dk
+    <!-- BOOKING -->
+    <div class="section">
+      <h2>Booking</h2>
+      <p>
+        Klar på en aften, der både er sjov og lidt uden for det sædvanlige?
+      </p>
+      <p>
+        Skriv til os: <a href="mailto:din@email.dk">din@email.dk</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      © Tissemands Bingo
+    </div>
+
   </div>
-</section>
-
-<footer>
-  <p>© 2026 Tissemands Banko</p>
-</footer>
 
 </body>
 </html>
